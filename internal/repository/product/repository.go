@@ -3,8 +3,8 @@ package product
 import (
 	"time"
 
-	productEntity "github.com/deptech/internal/entity/product"
-	transEntity "github.com/deptech/internal/entity/transaction"
+	productEntity "github.com/ristono404/deptech/internal/entity/product"
+	transEntity "github.com/ristono404/deptech/internal/entity/transaction"
 )
 
 type Repository interface {

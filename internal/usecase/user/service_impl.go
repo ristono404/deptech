@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	userEntity "github.com/deptech/internal/entity/user"
-	event "github.com/deptech/internal/event"
-	userRepository "github.com/deptech/internal/repository/user"
+	userEntity "github.com/ristono404/deptech/internal/entity/user"
+	event "github.com/ristono404/deptech/internal/event"
+	userRepository "github.com/ristono404/deptech/internal/repository/user"
 )
 
 type service struct {

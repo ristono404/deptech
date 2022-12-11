@@ -3,8 +3,8 @@ package user
 import (
 	"time"
 
-	userEntity "github.com/deptech/internal/entity/user"
-	event "github.com/deptech/internal/event"
+	userEntity "github.com/ristono404/deptech/internal/entity/user"
+	event "github.com/ristono404/deptech/internal/event"
 )
 
 type Repository interface {

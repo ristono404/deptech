@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/deptech/internal/delivery/container"
-	"github.com/deptech/internal/delivery/server"
+	"github.com/ristono404/deptech/internal/delivery/container"
+	"github.com/ristono404/deptech/internal/delivery/server"
 )
 
 func main() {

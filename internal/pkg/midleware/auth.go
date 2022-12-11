@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/deptech/internal/pkg/auth"
-	response "github.com/deptech/internal/pkg/response"
+	"github.com/ristono404/deptech/internal/pkg/auth"
+	response "github.com/ristono404/deptech/internal/pkg/response"
 )
 
 func AuthUser(next http.Handler) http.Handler {

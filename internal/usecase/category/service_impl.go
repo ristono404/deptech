@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	categoryEntity "github.com/deptech/internal/entity/category"
-	event "github.com/deptech/internal/event"
-	categoryRepository "github.com/deptech/internal/repository/category"
+	categoryEntity "github.com/ristono404/deptech/internal/entity/category"
+	event "github.com/ristono404/deptech/internal/event"
+	categoryRepository "github.com/ristono404/deptech/internal/repository/category"
 )
 
 type service struct {

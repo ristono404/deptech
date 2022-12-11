@@ -3,10 +3,10 @@ package user
 import (
 	"time"
 
-	userEntity "github.com/deptech/internal/entity/user"
-	"github.com/deptech/internal/event"
-	pkgRepository "github.com/deptech/internal/pkg/repository"
-	"github.com/deptech/internal/shared/database"
+	userEntity "github.com/ristono404/deptech/internal/entity/user"
+	"github.com/ristono404/deptech/internal/event"
+	pkgRepository "github.com/ristono404/deptech/internal/pkg/repository"
+	"github.com/ristono404/deptech/internal/shared/database"
 )
 
 type repository struct {

@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"time"
 
-	productEntity "github.com/deptech/internal/entity/product"
-	transEntity "github.com/deptech/internal/entity/transaction"
-	"github.com/deptech/internal/event"
-	"github.com/deptech/internal/pkg/file"
-	productRepository "github.com/deptech/internal/repository/product"
+	productEntity "github.com/ristono404/deptech/internal/entity/product"
+	transEntity "github.com/ristono404/deptech/internal/entity/transaction"
+	"github.com/ristono404/deptech/internal/event"
+	"github.com/ristono404/deptech/internal/pkg/file"
+	productRepository "github.com/ristono404/deptech/internal/repository/product"
 )
 
 type service struct {

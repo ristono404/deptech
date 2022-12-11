@@ -3,7 +3,7 @@ package category
 import (
 	"time"
 
-	categoryEntity "github.com/deptech/internal/entity/category"
+	categoryEntity "github.com/ristono404/deptech/internal/entity/category"
 )
 
 type Repository interface {

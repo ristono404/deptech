@@ -3,9 +3,9 @@ package category
 import (
 	"time"
 
-	categoryEntity "github.com/deptech/internal/entity/category"
-	pkgRepository "github.com/deptech/internal/pkg/repository"
-	"github.com/deptech/internal/shared/database"
+	categoryEntity "github.com/ristono404/deptech/internal/entity/category"
+	pkgRepository "github.com/ristono404/deptech/internal/pkg/repository"
+	"github.com/ristono404/deptech/internal/shared/database"
 )
 
 type repository struct {

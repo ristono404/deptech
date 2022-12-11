@@ -4,8 +4,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/deptech/internal/entity/user"
 	"github.com/dgrijalva/jwt-go"
+	"github.com/ristono404/deptech/internal/entity/user"
 )
 
 var jwtKey = []byte("supersecretkey")

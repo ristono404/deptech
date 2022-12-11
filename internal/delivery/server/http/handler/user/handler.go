@@ -9,14 +9,14 @@ import (
 	"strings"
 	"time"
 
-	config "github.com/deptech/internal/config"
-	event "github.com/deptech/internal/event"
-	auth "github.com/deptech/internal/pkg/auth"
-	pkgRequest "github.com/deptech/internal/pkg/request"
-	response "github.com/deptech/internal/pkg/response"
-	userUsecase "github.com/deptech/internal/usecase/user"
 	validator "github.com/go-playground/validator/v10"
 	"github.com/gorilla/mux"
+	config "github.com/ristono404/deptech/internal/config"
+	event "github.com/ristono404/deptech/internal/event"
+	auth "github.com/ristono404/deptech/internal/pkg/auth"
+	pkgRequest "github.com/ristono404/deptech/internal/pkg/request"
+	response "github.com/ristono404/deptech/internal/pkg/response"
+	userUsecase "github.com/ristono404/deptech/internal/usecase/user"
 )
 
 type Handler struct {

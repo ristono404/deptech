@@ -3,7 +3,7 @@ package product
 import (
 	"time"
 
-	"github.com/deptech/internal/entity/category"
+	"github.com/ristono404/deptech/internal/entity/category"
 )
 
 type Entity struct {

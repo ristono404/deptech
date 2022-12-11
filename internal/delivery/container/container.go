@@ -3,14 +3,14 @@ package container
 import (
 	"log"
 
-	"github.com/deptech/internal/config"
-	categoryRepo "github.com/deptech/internal/repository/category"
-	productRepo "github.com/deptech/internal/repository/product"
-	userRepo "github.com/deptech/internal/repository/user"
-	"github.com/deptech/internal/shared/database"
-	categoryUsecase "github.com/deptech/internal/usecase/category"
-	productUsecase "github.com/deptech/internal/usecase/product"
-	userUsecase "github.com/deptech/internal/usecase/user"
+	"github.com/ristono404/deptech/internal/config"
+	categoryRepo "github.com/ristono404/deptech/internal/repository/category"
+	productRepo "github.com/ristono404/deptech/internal/repository/product"
+	userRepo "github.com/ristono404/deptech/internal/repository/user"
+	"github.com/ristono404/deptech/internal/shared/database"
+	categoryUsecase "github.com/ristono404/deptech/internal/usecase/category"
+	productUsecase "github.com/ristono404/deptech/internal/usecase/product"
+	userUsecase "github.com/ristono404/deptech/internal/usecase/user"
 )
 
 type Container struct {

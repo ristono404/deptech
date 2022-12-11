@@ -1,10 +1,10 @@
 package handler
 
 import (
-	"github.com/deptech/internal/delivery/container"
-	"github.com/deptech/internal/delivery/server/http/handler/category"
-	"github.com/deptech/internal/delivery/server/http/handler/product"
-	"github.com/deptech/internal/delivery/server/http/handler/user"
+	"github.com/ristono404/deptech/internal/delivery/container"
+	"github.com/ristono404/deptech/internal/delivery/server/http/handler/category"
+	"github.com/ristono404/deptech/internal/delivery/server/http/handler/product"
+	"github.com/ristono404/deptech/internal/delivery/server/http/handler/user"
 )
 
 type Handler struct {

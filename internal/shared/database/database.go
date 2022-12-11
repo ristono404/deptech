@@ -1,7 +1,7 @@
 package database
 
 import (
-	pkgMySQL "github.com/deptech/internal/pkg/database/mysql"
+	pkgMySQL "github.com/ristono404/deptech/internal/pkg/database/mysql"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 )

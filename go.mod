@@ -1,4 +1,4 @@
-module github.com/deptech
+module github.com/ristono404/deptech
 
 go 1.19
 

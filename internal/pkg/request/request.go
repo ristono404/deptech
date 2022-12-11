@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/deptech/internal/pkg/sql"
+	"github.com/ristono404/deptech/internal/pkg/sql"
 )
 
 func List(r url.Values, defaultPerPage uint64) (page, limit, offset uint64, from, to *time.Time, err error) {

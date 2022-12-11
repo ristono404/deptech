@@ -3,9 +3,9 @@ package product
 import (
 	"time"
 
-	productEntity "github.com/deptech/internal/entity/product"
-	transEntity "github.com/deptech/internal/entity/transaction"
-	event "github.com/deptech/internal/event"
+	productEntity "github.com/ristono404/deptech/internal/entity/product"
+	transEntity "github.com/ristono404/deptech/internal/entity/transaction"
+	event "github.com/ristono404/deptech/internal/event"
 )
 
 type Service interface {

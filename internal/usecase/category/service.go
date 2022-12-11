@@ -3,8 +3,8 @@ package category
 import (
 	"time"
 
-	categoryEntity "github.com/deptech/internal/entity/category"
-	event "github.com/deptech/internal/event"
+	categoryEntity "github.com/ristono404/deptech/internal/entity/category"
+	event "github.com/ristono404/deptech/internal/event"
 )
 
 type Service interface {

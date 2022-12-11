@@ -7,11 +7,11 @@ import (
 	"strconv"
 	"strings"
 
-	config "github.com/deptech/internal/config"
-	event "github.com/deptech/internal/event"
-	pkgRequest "github.com/deptech/internal/pkg/request"
-	response "github.com/deptech/internal/pkg/response"
-	productUsecase "github.com/deptech/internal/usecase/product"
+	config "github.com/ristono404/deptech/internal/config"
+	event "github.com/ristono404/deptech/internal/event"
+	pkgRequest "github.com/ristono404/deptech/internal/pkg/request"
+	response "github.com/ristono404/deptech/internal/pkg/response"
+	productUsecase "github.com/ristono404/deptech/internal/usecase/product"
 
 	validator "github.com/go-playground/validator/v10"
 	"github.com/gorilla/mux"

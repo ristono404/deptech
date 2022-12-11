@@ -5,8 +5,8 @@ import (
 	"os"
 	"time"
 
-	pkgMySQL "github.com/deptech/internal/pkg/database/mysql"
 	"github.com/joho/godotenv"
+	pkgMySQL "github.com/ristono404/deptech/internal/pkg/database/mysql"
 	"github.com/spf13/cast"
 )
 

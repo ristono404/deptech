@@ -5,11 +5,11 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/deptech/internal/delivery/container"
-	"github.com/deptech/internal/delivery/server/http/handler"
-	"github.com/deptech/internal/delivery/server/http/handler/router"
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
+	"github.com/ristono404/deptech/internal/delivery/container"
+	"github.com/ristono404/deptech/internal/delivery/server/http/handler"
+	"github.com/ristono404/deptech/internal/delivery/server/http/handler/router"
 )
 
 func New(container *container.Container) {

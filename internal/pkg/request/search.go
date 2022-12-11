@@ -1,7 +1,7 @@
 package request
 
 import (
-	"github.com/deptech/internal/pkg/sql"
+	"github.com/ristono404/deptech/internal/pkg/sql"
 )
 
 type Search struct {

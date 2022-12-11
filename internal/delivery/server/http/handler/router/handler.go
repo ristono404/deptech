@@ -3,9 +3,9 @@ package router
 import (
 	"net/http"
 
-	"github.com/deptech/internal/delivery/server/http/handler"
-	"github.com/deptech/internal/pkg/midleware"
 	"github.com/gorilla/mux"
+	"github.com/ristono404/deptech/internal/delivery/server/http/handler"
+	"github.com/ristono404/deptech/internal/pkg/midleware"
 )
 
 func New(r *mux.Router, handler *handler.Handler) {

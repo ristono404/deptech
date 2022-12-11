@@ -4,10 +4,10 @@ import (
 	"errors"
 	"time"
 
-	productEntity "github.com/deptech/internal/entity/product"
-	transEntity "github.com/deptech/internal/entity/transaction"
-	pkgRepository "github.com/deptech/internal/pkg/repository"
-	"github.com/deptech/internal/shared/database"
+	productEntity "github.com/ristono404/deptech/internal/entity/product"
+	transEntity "github.com/ristono404/deptech/internal/entity/transaction"
+	pkgRepository "github.com/ristono404/deptech/internal/pkg/repository"
+	"github.com/ristono404/deptech/internal/shared/database"
 	"gorm.io/gorm"
 )
 

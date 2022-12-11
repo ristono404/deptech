@@ -7,13 +7,13 @@ import (
 	"strconv"
 	"strings"
 
-	config "github.com/deptech/internal/config"
-	event "github.com/deptech/internal/event"
-	pkgRequest "github.com/deptech/internal/pkg/request"
-	response "github.com/deptech/internal/pkg/response"
-	categoryUsecase "github.com/deptech/internal/usecase/category"
 	validator "github.com/go-playground/validator/v10"
 	"github.com/gorilla/mux"
+	config "github.com/ristono404/deptech/internal/config"
+	event "github.com/ristono404/deptech/internal/event"
+	pkgRequest "github.com/ristono404/deptech/internal/pkg/request"
+	response "github.com/ristono404/deptech/internal/pkg/response"
+	categoryUsecase "github.com/ristono404/deptech/internal/usecase/category"
 )
 
 type Handler struct {
