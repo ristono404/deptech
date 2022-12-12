@@ -15,6 +15,8 @@ CREATE TABLE IF NOT EXISTS `users` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+INSERT INTO `users` (`first_name`, `last_name`, `birth_date`, `email`, `password`, `gender`, `created_at`, `updated_at`) VALUES ('kamaru', 'usman', '1995-09-08 07:00:00', 'kamaru@gmail.com', 'admin', '1', '2022-12-10 11:47:49', '2022-12-10 11:47:49');
+
 CREATE TABLE IF NOT EXISTS `product_categories` (
   `id` int unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(256) NOT NULL,
